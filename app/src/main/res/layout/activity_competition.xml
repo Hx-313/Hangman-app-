@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context=".ActivityMenu">
+
+    <LinearLayout
+        android:id="@+id/Vanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/custom_action_bar"
+            layout="@layout/activity_action_bar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/test3"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:id="@+id/banner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/competition_mode"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/word_back1"
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/buttonbg"
+                        android:layout_centerHorizontal="true" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true">
+
+                        <TextView
+                            android:id="@+id/enter_word"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/enter_a_word_to_challenge"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true" />
+
+                        <EditText
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/word"
+                            android:hint="@string/enter_a_word"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textStyle="bold"
+                            android:padding="10dp"
+                            android:background="@drawable/custom_button"
+                            android:inputType="textPassword|textCapCharacters|text" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/word_back"
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/buttonbg"
+                        android:layout_centerHorizontal="true" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true">
+
+                        <TextView
+                            android:id="@+id/confirm_input"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/enter_a_word_to_challenge"
+                            android:textSize="20sp"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:id="@+id/Confirm_word"
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/custom_button"
+                            android:hint="@string/enter_a_word"
+                            android:inputType="textPassword|textCapCharacters|text"
+                            android:padding="10dp"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_below="@id/banner"
+                    android:padding="16dp">
+
+                    <!-- Start ImageButton -->
+                    <ImageButton
+                        android:id="@+id/Submit"
+                        android:layout_width="200dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/buttonbg"
+                        />
+
+                    <!-- Start TextView (overlapping the ImageButton) -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/let_s_go"
+                        android:textColor="@color/white"
+                        android:textSize="40sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:clickable="false" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

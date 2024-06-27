@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background with transparent color -->
+    <item android:drawable="@android:color/transparent" />
+
+    <!-- Bottom border -->
+    <item
+        android:top="-6dp"
+        android:right="-6dp"
+        android:left="-6dp"
+        android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <solid android:drawable="@color/bluelight"/>
+
+            <stroke
+                android:width="6dp"
+                android:color="@color/stGaColor" />
+        </shape>
+    </item>
+</layer-list>

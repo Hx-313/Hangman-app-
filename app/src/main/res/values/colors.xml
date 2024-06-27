@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="stGaColor">#6A3307</color>
+    <color name="menuButton">#FF86694B</color>
+    <color name="RED">#FF0000</color>
+    <color name="orange">#eaad43</color>
+    <color name="colorPrimaryDark">#2f333f</color>
+    <color name="bluelight">#49acd5</color>
+    <color name="green">#45bc62</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_color">#FAFAFA</color>
+    <color name="text_color">#000000</color>
+    <color name="hint_color">#888888</color>
+    <color name="button_color">#FFD700</color>
+    <color name="icon_color">#444444</color>
+
+</resources>

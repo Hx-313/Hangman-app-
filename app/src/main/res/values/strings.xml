@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HangmanGame</string>
+    <string name="StartGame">Starting Game...</string>
+    <string name="starting_game">Starting Game...</string>
+    <string name="sg">Start Game</string>
+    <string name="tot">Toturial</string>
+    <string name="Leaderboard">Leaderboard</string>
+    <string name="quick_game">One Player</string>
+    <string name="compeitive_mod">Two Player</string>
+    <string name="adventure_mod">Adventure mod</string>
+    <string name="easy_mode">Easy Mode</string>
+    <string name="medium_mode">Medium Mode</string>
+    <string name="veteran">veteran</string>
+    <string name="master">Master</string>
+    <string name="rookie">Rookie</string>
+    <string name="challengee_name">Challengee Name</string>
+    <string name="competition_mode">Competition Mode</string>
+    <string name="enter_challengee">Enter Challengee..</string>
+    <string name="enter_a_word">Enter a word</string>
+    <string name="enter_a_word_to_challenge">Enter a Word to challenge</string>
+    <string name="enter_challengee_name">Enter Challengee Name</string>
+    <string name="confirm_word">Confirm Word</string>
+    <string name="let_s_go">Let\'s Go</string>
+    <string name="game_mode">Game Mode:</string>
+    <string name="try_again">try Again</string>
+    <string name="actionbar_clicked">ActionBar Clicked</string>
+    <string name="title_activity_tabbed_view">TabbedViewActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+</resources>

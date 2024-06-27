@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context=".ActivityMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/custom_action_bar"
+            layout="@layout/activity_action_bar"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/test3"
+                android:scaleType="fitXY"
+                />
+
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/banner"
+                    android:layout_centerHorizontal="true"
+                    />
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <!-- Easy ImageButton -->
+                    <ImageButton
+                        android:id="@+id/option1"
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:background="@drawable/buttonbg"
+                        android:layout_marginTop="40dp"
+                        />
+
+                    <!-- Easy TextView (overlapping the ImageButton) -->
+                    <TextView
+                        android:id="@+id/easyText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Continue..."
+                        android:textColor="@color/white"
+                        android:textSize="40dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignTop="@id/option1"
+                        android:clickable="false"
+                        />
+
+                    <!-- Medium ImageButton -->
+                    <ImageButton
+                        android:id="@+id/newGame"
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:background="@drawable/buttonbg"
+                        android:layout_marginTop="50dp"
+                        android:layout_below="@id/option1" />
+
+                    <!-- Medium TextView (overlapping the ImageButton) -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" New Game"
+                        android:textColor="@color/white"
+                        android:textSize="35sp"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignTop="@id/newGame"
+                        android:clickable="false"/>
+
+                    <!-- Hard ImageButton -->
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
